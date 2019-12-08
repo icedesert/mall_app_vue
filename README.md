@@ -1,5 +1,7 @@
 # mall_app
 
+#### 项目使用的是静态资源，非动态数据；
+
 ## Project setup
 ```
 npm install

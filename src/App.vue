@@ -1,32 +1,49 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <header class="mui-bar mui-bar-nav head">
+      <h1 class="mui-title headtitle">商城项目</h1>
+    </header>
+    <h1>hello world</h1>
+    <nav class="mui-bar mui-bar-tab">
+      <a class="mui-tab-item" href="#tabbar">
+        <span class="mui-icon icon-home3 icon"></span>
+        <span class="mui-tab-label">首页</span>
+      </a>
+      <a class="mui-tab-item" href="#tabbar-with-map">
+        <span class="mui-icon icon-compass2 icon"></span>
+        <span class="mui-tab-label">发现</span>
+      </a>
+      <a class="mui-tab-item" href="#tabbar-with-chat">
+        <span class="mui-icon icon-cart icon"><span class="mui-badge">0</span></span>
+        <span class="mui-tab-label">购物车</span>
+      </a>
+      <a class="mui-tab-item" href="#tabbar-with-contact">
+        <span class="mui-icon icon-user icon"></span>
+        <span class="mui-tab-label">我的</span>
+      </a>
+    </nav>
   </div>
 </template>
 
-<style lang="less">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
 
-#nav {
-  padding: 30px;
+</script>
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<style lang="less" scoped>
+  #app {
+    padding: 44px 0;
+    .head {
+      background-color: #7f8cff;
+      .headtitle {
+        color: #ececec;
+      }
+    }
+    nav {
+      a {
+        .icon {
+          font-size: 21px;
+        }
+      }
     }
   }
-}
 </style>
