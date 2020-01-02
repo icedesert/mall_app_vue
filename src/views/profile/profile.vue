@@ -155,11 +155,11 @@ export default {
     width: 100%;
     overflow: hidden;
     .head {
-      background: @green;
+      background: @red;
       color: #ffffff;
     }
     .header {
-      background-color: @green;
+      background-color: @red;
       position: fixed;
       z-index: 100;
       left: 0;
@@ -209,7 +209,7 @@ export default {
         .clearFix();
         position: relative;
         display: block;
-        background: @green;
+        background: @red;
         padding: 20px 10px;
         .profile_image {
           float: left;
@@ -348,7 +348,7 @@ export default {
             font-size: 30px;
           }
           .icon-order-s {
-            color: @green;
+            color: @red;
           }
           .icon-jifen {
             color: #ff5f3e;
@@ -357,7 +357,7 @@ export default {
             color: #f90;
           }
           .icon-fuwu {
-            color: @green;
+            color: @red;
           }
         }
         .my_order_div {

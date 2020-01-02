@@ -192,7 +192,7 @@ export default {
         .login_logo {
           font-size: 40px;
           font-weight: bold;
-          color: @green;
+          color: @red;
           text-align: center;
         }
         .login_header_title {
@@ -206,9 +206,9 @@ export default {
               margin-right: 40px;
             }
             &.on {
-              color: @green;
+              color: @red;
               font-weight: 700;
-              border-bottom: 2px solid @green;
+              border-bottom: 2px solid @red;
             }
           }
         }
@@ -230,7 +230,7 @@ export default {
               outline: 0;
               font: 400 14px Arial;
               &:focus {
-                border: 1px solid @green;
+                border: 1px solid @red;
               }
             }
             .login_message {
@@ -277,7 +277,7 @@ export default {
                   background: #fff;
                 }
                 &.on {
-                  background: @green;
+                  background: @red;
                 }
                 > .switch_circle {
                   position: absolute;
@@ -302,7 +302,7 @@ export default {
               font-size: 14px;
               line-height: 20px;
               > a {
-                color: @green;
+                color: @red;
               }
             }
           }
