@@ -12,7 +12,7 @@
     "better-scroll": "^1.15.2",
     "bootstrap": "^4.4.1",
     "core-js": "^3.4.3",
-    "jquery": "^1.9.1",
+    "jquery": "^3.5.0",
     "mint-ui": "^2.2.13",
     "mockjs": "^1.1.0",
     "popper.js": "^1.16.0",
